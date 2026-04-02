@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="260" viewBox="0 0 800 260">
+  <defs>
+    <style>
+      .title {
+        font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", sans-serif;
+        font-size: 34px;
+        fill: #111111;
+      }
+      .label {
+        font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", sans-serif;
+        font-size: 26px;
+        fill: #111111;
+      }
+      .small {
+        font-family: "Comic Sans MS", "Chalkboard", "Marker Felt", sans-serif;
+        font-size: 24px;
+        fill: #222222;
+      }
+      .outline {
+        stroke: #111111;
+        stroke-width: 5;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        fill: none;
+      }
+    </style>
+  </defs>
+
+  <rect width="100%" height="100%" fill="#fcfcf7" />
+
+  <text x="80" y="94" class="title">My Progress</text>
+  <text x="720" y="94" text-anchor="end" class="label">10.0%</text>
+
+  <rect x="80" y="120" width="640" height="56" rx="12" fill="#ffffff" stroke="#111111" stroke-width="5" />
+  <rect x="86" y="126" width="52" height="44" rx="8" fill="#f29e3c" />
+</svg>
